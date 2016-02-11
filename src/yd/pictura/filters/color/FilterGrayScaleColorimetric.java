@@ -11,5 +11,5 @@ public class FilterGrayScaleColorimetric extends FilterGrayScale {
 
     public FilterGrayScaleColorimetric() {
         super(RED_COEFFICIENT, GREEN_COEFFICIENT, BLUE_COEFFICIENT);
-    }     
+    }
 }
