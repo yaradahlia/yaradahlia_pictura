@@ -12,12 +12,12 @@ public class Pixel extends Color {
     public static final int MAX_VALUE = 255;
     public static final int MIN_VALUE = 0;
     
-    public Pixel(int r, int g, int b) {
-        super(r, g, b);
+    public Pixel(int red, int green, int blue) {
+        super(red, green, blue);
     }
 
-    public Pixel(int r, int g, int b, int a) {
-        super(r, g, b, a);
+    public Pixel(int red, int green, int blue, int alpha) {
+        super(red, green, blue, alpha);
     }
 
     public Pixel(int rgb) {
@@ -28,12 +28,12 @@ public class Pixel extends Color {
         super(rgba, hasalpha);
     }
 
-    public Pixel(float r, float g, float b) {
-        super(r, g, b);
+    public Pixel(float red, float green, float blue) {
+        super(red, green, blue);
     }
 
-    public Pixel(float r, float g, float b, float a) {
-        super(r, g, b, a);
+    public Pixel(float red, float green, float blue, float alpha) {
+        super(red, green, blue, alpha);
     }
 
     public Pixel(ColorSpace cspace, float[] components, float alpha) {
