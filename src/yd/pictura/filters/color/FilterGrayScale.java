@@ -40,9 +40,10 @@ public class FilterGrayScale extends AFilterPixel {
         int red = pixel.getRed();
         int green = pixel.getGreen();
         int blue = pixel.getBlue();
-               
-        return new Pixel(
-            this.redCoefficient * red, this.greenCoefficient * green, this.blueCoefficient * blue, alpha);
+        
+        float color = this.redCoefficient * red + this.greenCoefficient * green + this.blueCoefficient * blue;
+        
+        return new Pixel(color, color, color, alpha);
     }
     
 }
