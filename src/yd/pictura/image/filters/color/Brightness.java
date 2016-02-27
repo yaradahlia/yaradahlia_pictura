@@ -1,7 +1,7 @@
-package yd.pictura.filters.color;
+package yd.pictura.image.filters.color;
 
 import yd.pictura.Pixel;
-import yd.pictura.filters.AFilterPixel;
+import yd.pictura.image.filters.AFilterPixel;
 
 /**
  * Defines brightness filter.

@@ -1,4 +1,4 @@
-package yd.pictura.filters;
+package yd.pictura.image.filters;
 
 import java.util.LinkedList;
 import java.util.List;

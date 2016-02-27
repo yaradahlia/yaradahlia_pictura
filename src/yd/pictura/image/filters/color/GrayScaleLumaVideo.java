@@ -1,4 +1,4 @@
-package yd.pictura.filters.color;
+package yd.pictura.image.filters.color;
 
 /**
  *
