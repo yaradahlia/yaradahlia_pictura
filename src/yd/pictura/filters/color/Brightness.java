@@ -8,7 +8,7 @@ import yd.pictura.filters.AFilterPixel;
  * 
  * @author aaa
  */
-public class FilterBrightness extends AFilterPixel{
+public class Brightness extends AFilterPixel{
 
     private int offset = 0;
 
@@ -16,7 +16,7 @@ public class FilterBrightness extends AFilterPixel{
         return offset;
     }
 
-    public FilterBrightness(int offset) {
+    public Brightness(int offset) {
         this.offset = offset;
     }    
     

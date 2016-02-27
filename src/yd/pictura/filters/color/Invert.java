@@ -8,7 +8,7 @@ import yd.pictura.filters.AFilterPixel;
  * 
  * @author aaa
  */
-public class FilterInvert extends AFilterPixel {
+public class Invert extends AFilterPixel {
     public final int INVERT_OFFSET = 255;
     
     @Override

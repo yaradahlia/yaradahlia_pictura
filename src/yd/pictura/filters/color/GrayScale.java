@@ -7,7 +7,7 @@ import yd.pictura.filters.AFilterPixel;
  * Defines a custom grey scale filter.
  * @author aaa
  */
-public class FilterGrayScale extends AFilterPixel {
+public class GrayScale extends AFilterPixel {
 
     public static final float MIN_COEFFICIENT_VALUE = 0.0F;
     public static final float MAX_COEFFICIENT_VALUE = 1.0F;
@@ -16,7 +16,7 @@ public class FilterGrayScale extends AFilterPixel {
     private float greenCoefficient = 0.0F;
     private float blueCoefficient = 0.0F;
 
-    public FilterGrayScale(float redCoefficient, float greenCoefficient, float blueCoefficient) {
+    public GrayScale(float redCoefficient, float greenCoefficient, float blueCoefficient) {
         this.redCoefficient = Math.max(MIN_COEFFICIENT_VALUE, Math.min(redCoefficient, MAX_COEFFICIENT_VALUE));
         this.greenCoefficient = Math.max(MIN_COEFFICIENT_VALUE, Math.min(greenCoefficient, MAX_COEFFICIENT_VALUE));
         this.blueCoefficient = Math.max(MIN_COEFFICIENT_VALUE, Math.min(blueCoefficient, MAX_COEFFICIENT_VALUE));
